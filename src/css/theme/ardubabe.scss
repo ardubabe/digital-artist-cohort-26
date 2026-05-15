@@ -17,6 +17,7 @@ $active-color: #2a76dd;
 
 	$main-color: #333,
 	$main-font: "'Google Sans Code', sans-serif",
+	$main-font-size: 28px,
 
 	$heading-color: #333,
 	$heading-font: "'Bitcount Grid Double', sans-serif",
@@ -45,4 +46,19 @@ $active-color: #2a76dd;
 
 .reveal a {
 	line-height: 1.3em;
+}
+
+.reveal .slides {
+	text-align: left;
+}
+
+.reveal .slides section,
+.reveal .slides section > section {
+	text-align: left;
+}
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+	margin-left: 0;
 }
