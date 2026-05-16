@@ -235,7 +235,7 @@ function Presentation() {
         </ul>
       </Slide>
 
-      <Slide>
+      {/* <Slide>
         <h2>Brief</h2>
         <p>Make a soft circuit wearable that responds to the British Museum</p>
         <p>Two ways in:</p>
@@ -258,7 +258,7 @@ function Presentation() {
         <p>
           What would they have made if they'd had LEDs and conductive thread?
         </p>
-      </Slide>
+      </Slide> */}
 
       {/* <Slide>
         <h2>3. Interrogate the collection</h2>
