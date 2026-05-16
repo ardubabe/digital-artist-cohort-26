@@ -172,13 +172,13 @@ function Presentation() {
       <Slide>
         <h2>Materials</h2>
         <ul>
-          <li>Conductive Thread</li>
+          <li>3 Ply Conductive Thread</li>
           <li>Normal thread</li>
           <li>Lilypad LEDs</li>
           <li>Lilypad Coin Cell Battery Holder</li>
           <li>Coin cell battery</li>
           <li>Conductive material</li>
-          <li>Velostat</li>
+          <li>Velostat/Linqstat</li>
           <li>Felt</li>
         </ul>
       </Slide>
