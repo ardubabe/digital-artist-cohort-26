@@ -14,6 +14,52 @@ First session on soft circuits and e-textiles.
 | 4 | TBC | _coming soon_ |
 | 5 | TBC | _coming soon_ |
 
+## Before you start — install these first
+
+You'll need a few free tools installed on your computer before any of the steps below will work. Install instructions are the same idea on both platforms — download the installer, run it, click through the defaults.
+
+### 1. Visual Studio Code
+
+The code editor we'll use to look at and edit the slides.
+
+- **macOS:** download from [code.visualstudio.com](https://code.visualstudio.com/), unzip, drag **Visual Studio Code** into your Applications folder.
+- **Windows:** download the **User Installer** from [code.visualstudio.com](https://code.visualstudio.com/), run the `.exe`, accept the defaults (the "Add to PATH" option is helpful, leave it ticked).
+
+### 2. Node.js (LTS)
+
+Runs the dev server. The installer also includes `npm`, which we use to install dependencies.
+
+- **macOS:** download the macOS installer (`.pkg`) for the **LTS** version from [nodejs.org](https://nodejs.org/) and run it.
+- **Windows:** download the Windows installer (`.msi`) for the **LTS** version from [nodejs.org](https://nodejs.org/) and run it. Leave all the default options ticked.
+
+### 3. Git
+
+Needed for `git clone`.
+
+- **macOS:** open the **Terminal** app (Applications → Utilities, or press `Cmd + Space` and type "Terminal") and run `xcode-select --install`. A dialog will pop up — click **Install**. You can also download an installer from [git-scm.com](https://git-scm.com/downloads).
+- **Windows:** download Git for Windows from [git-scm.com/downloads](https://git-scm.com/downloads) and run the installer. Defaults are fine. This also installs **Git Bash**, a terminal you can use for all the commands below.
+
+### 4. A GitHub account
+
+Sign up at [github.com](https://github.com/) if you don't have one. You'll need this to fork the repo.
+
+### Check everything is installed
+
+Open a terminal:
+
+- **macOS:** open the **Terminal** app.
+- **Windows:** open **Git Bash** (recommended — it behaves the same as Mac's terminal), or **PowerShell**, or **Command Prompt**.
+
+Then run:
+
+```bash
+node --version    # should print something like v20.x.x
+npm --version     # should print a number
+git --version     # should print a version
+```
+
+If any of those say "command not found" (Mac) or "is not recognized" (Windows), go back and install the missing one. On Windows you may need to **close and reopen** the terminal after installing — the new tools won't show up in an already-open window.
+
 ## Viewing the slides
 
 The deck is a Vite app, so to view it locally:
