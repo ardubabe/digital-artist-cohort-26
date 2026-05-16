@@ -4,6 +4,8 @@ Slides and workshop materials for the British Museum Digital Artist Cohort 2026 
 
 First session on soft circuits and e-textiles.
 
+**Live slides:** <https://ardubabe.github.io/digital-artist-cohort-26/>
+
 ## Workshops
 
 | # | Workshop | Slide deck |
@@ -88,6 +90,19 @@ If you want your own copy to play with:
 3. Edit `src/components/Presentation.jsx` to change the slides, and commit/push to your fork.
 
 If you just want the code without GitHub, you can download the repo as a ZIP from the green **Code** button.
+
+## Deployment (GitHub Pages)
+
+The slides are deployed automatically by GitHub Actions on every push to `main` (see `.github/workflows/deploy.yml`).
+
+One-time setup on the repo:
+
+1. Go to **Settings → Pages**.
+2. Under **Build and deployment → Source**, choose **GitHub Actions**.
+3. Push to `main` (or run the workflow manually from the **Actions** tab). The first deploy takes ~1 minute.
+4. The site goes live at <https://ardubabe.github.io/digital-artist-cohort-26/>.
+
+The `base` path in `vite.config.js` is set to `/digital-artist-cohort-26/` so asset URLs resolve correctly under the project subpath. If the repo is ever renamed, update `base` to match.
 
 ## Stack
 
